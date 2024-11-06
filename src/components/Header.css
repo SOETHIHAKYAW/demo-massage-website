@@ -1,0 +1,20 @@
+.header {
+    background: #f4f7f6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-family: 'Playfair Display', serif;
+    color: #3b3c36;
+  }
+  
+  .header nav a {
+    margin: 0 15px;
+    color: #3b3c36;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  

@@ -1,0 +1,42 @@
+/* src/components/FAQ.css */
+
+.faq {
+    padding: 3rem;
+    background: #f0f8ff;
+  }
+  
+  .faq h2 {
+    font-size: 2.5rem;
+    color: #2f4f4f;
+    text-align: center;
+  }
+  
+  .faq-list {
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+  
+  .faq-item {
+    cursor: pointer;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faq-item h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .faq-item p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .faq-item:hover {
+    background-color: #f0f8ff;
+  }
+  
