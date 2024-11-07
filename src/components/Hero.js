@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
     <section id="hero" className="hero">
-      <h2>Welcome to Relax & Renew</h2>
+      <h2>WELCOM TO VUTH MEDICAL MESSSAGE</h2>
       <p>Experience tranquility and rejuvenation with our professional massage services.</p>
       <button className="cta-button" onClick={scrollToContact}>Book Now</button>
     </section>
