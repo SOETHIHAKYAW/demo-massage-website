@@ -4,13 +4,13 @@ import ServiceCard from './ServiceCard';
 import './Services.css';
 
 // Importing images for the services
-import swedishMassageImg from '../images/services/swedish-massage.png';
-import deepTissueMassageImg from '../images/services/deep-tissue-massage.png';
+import medicalMassageImg from '../images/services/medical-massage.jpg';
+import deepTissueMassageImg from '../images/services/deep-tissue-massage.jpg';
 import aromatherapyMassageImg from '../images/services/aromatherapy-massage.png';
 
 export default function Services() {
   const services = [
-    { title: 'Swedish Massage', description: 'Relaxing massage to release tension and stress.', image: swedishMassageImg },
+    { title: 'Medical Massage', description: 'Therapeutic massage aimed at treating specific medical conditions, reducing pain, and promoting recovery.', image: medicalMassageImg },
     { title: 'Deep Tissue Massage', description: 'Focused massage to relieve muscle pain and tightness.', image: deepTissueMassageImg },
     { title: 'Aromatherapy Massage', description: 'Essential oils to enhance relaxation and healing.', image: aromatherapyMassageImg },
   ];
