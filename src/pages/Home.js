@@ -8,21 +8,35 @@ import Testimonials from '../components/Testimonials';
 import Gallery from '../components/Gallery';
 import FAQ from '../components/FAQ';
 import Booking from '../components/Booking';
-import Location from '../components/Location';
 import ContactForm from '../components/ContactForm';
+import videoPath from '../assets/videos/medical-animation.mp4'; // Import your video file
+import './Home.css'
 
 export default function Home() {
   return (
     <>
       <Header />
       <Hero />
+      {/* Animation Video Section */}
+      <section className="animation-video">
+        <h2>Experience Our Services</h2>
+        <video
+          src={videoPath}
+          autoPlay
+          loop
+          muted
+          controls={false}
+          className="video"
+        >
+          Your browser does not support the video tag.
+        </video>
+      </section>
       <About />
       <Services />
       <Testimonials />
       <Gallery />
       <FAQ />
       <Booking />
-      {/* <Location /> */}
       <ContactForm />
     </>
   );

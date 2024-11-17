@@ -1,0 +1,22 @@
+.animation-video {
+    text-align: center;
+    width: 100%;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .animation-video h2 {
+    font-size: 24px;
+    margin-bottom: 30px; /* Extra spacing for aesthetics */
+    color: #333;
+  }
+  
+  .animation-video .video {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto; /* Centers the video horizontally */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
