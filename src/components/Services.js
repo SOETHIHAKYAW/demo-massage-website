@@ -4,9 +4,9 @@ import ServiceCard from './ServiceCard';
 import './Services.css';
 
 // Importing images for the services
-import medicalMassageImg from '../images/services/medical-massage.jpg';
-import deepTissueMassageImg from '../images/services/deep-tissue-massage.jpg';
-import aromatherapyMassageImg from '../images/services/aromatherapy-massage.png';
+import medicalMassageImg from '../assets/images/services/medical-massage.jpg';
+import deepTissueMassageImg from '../assets/images/services/deep-tissue-massage.jpg';
+import aromatherapyMassageImg from '../assets/images/services/aromatherapy-massage.png';
 
 export default function Services() {
   const services = [

@@ -1,7 +1,7 @@
 import React from 'react';
-import therapist1 from '../images/about/therapist/therapist1.jpg';
-import therapist2 from '../images/about/therapist/therapist2.jpg';
-import therapist3 from '../images/about/therapist/therapist3.jpg';
+import therapist1 from '../assets/images/about/therapist/therapist1.jpg';
+import therapist2 from '../assets/images/about/therapist/therapist2.jpg';
+import therapist3 from '../assets/images/about/therapist/therapist3.jpg';
 import './About.css';
 
 export default function About() {
